@@ -12,7 +12,6 @@ jobs:
   build-upload_windows-x64:
     runs-on: windows-latest
     steps:
-      runs-on: windows-latest
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
