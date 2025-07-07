@@ -26,6 +26,8 @@ jobs:
       - name: build
         run: |
           go mod tidy
+          go build -o m3u8d_tk9ui_idm.exe -tags=idm --ldflags="-s -w -H windowsgui"
+          dir m3u8d_tk9ui_idm.exe
           go build -o m3u8d_tk9ui.exe --ldflags="-s -w -H windowsgui"
           dir m3u8d_tk9ui.exe
       - name: upload release m3u8d_tk9ui
@@ -33,4 +35,10 @@ jobs:
         with:
           name: m3u8d_tk9ui-${{ github.ref_name }}.exe
           path: m3u8d_tk9ui.exe
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: upload release m3u8d_tk9ui_idm
+        uses: Guerra24/upload-to-release@v1
+        with:
+          name: m3u8d_tk9ui_idm-${{ github.ref_name }}.exe
+          path: m3u8d_tk9ui_idm.exe
           repo-token: ${{ secrets.GITHUB_TOKEN }}

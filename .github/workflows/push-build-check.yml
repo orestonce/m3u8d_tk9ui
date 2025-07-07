@@ -25,3 +25,5 @@ jobs:
           go mod tidy
           go build -o m3u8d_tk9ui.exe --ldflags="-s -w -H windowsgui"
           dir m3u8d_tk9ui.exe
+          go build -o m3u8d_tk9ui_idm.exe -tags=idm --ldflags="-s -w -H windowsgui"
+          dir m3u8d_tk9ui_idm.exe
