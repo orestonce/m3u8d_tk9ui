@@ -5,7 +5,6 @@ go 1.24
 require (
 	github.com/ZenLiuCN/fn v0.1.34
 	github.com/orestonce/m3u8d v1.25.7
-	github.com/tc-hib/winres v0.3.1
 	modernc.org/tk9.0 v0.70.5
 )
 
@@ -21,7 +20,6 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
-	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
 	github.com/orestonce/gopool v0.0.0-20220508090328-d7d56d45b171 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/xiaoqidun/setft v0.0.0-20220310121541-be86327699ad // indirect
