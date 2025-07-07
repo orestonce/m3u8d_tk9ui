@@ -28,6 +28,8 @@ github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWE
 github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
 github.com/ncruces/go-strftime v0.1.9 h1:bY0MQC28UADQmHmaF5dgpLmImcShSi2kHU9XLdhx/f4=
 github.com/ncruces/go-strftime v0.1.9/go.mod h1:Fwc5htZGVVkseilnfgOVb9mKy6w1naJmn9CehxcKcls=
+github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 h1:zYyBkD/k9seD2A7fsi6Oo2LfFZAehjjQMERAvZLEDnQ=
+github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646/go.mod h1:jpp1/29i3P1S/RLdc7JQKbRpFeM1dOBd8T9ki5s+AY8=
 github.com/orestonce/gopool v0.0.0-20220508090328-d7d56d45b171 h1:NnOl6HTrhrlTT7aaAybVOtq+fEztGFMoQtegckgwLdk=
 github.com/orestonce/gopool v0.0.0-20220508090328-d7d56d45b171/go.mod h1:MCQUrAPiG9/PTjHJuGqWLasKbIaG6z62KO6kfp90byM=
 github.com/orestonce/m3u8d v1.25.7 h1:uKTbscGiICoShGqNlsVugwFnitSrm5Edss6BWGz/ed8=
@@ -38,6 +40,8 @@ github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec h1:W09IVJc94
 github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec/go.mod h1:qqbHyh8v60DhA7CoWK5oRCqLrMHRGoxYCSS9EjAz6Eo=
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
+github.com/tc-hib/winres v0.3.1 h1:CwRjEGrKdbi5CvZ4ID+iyVhgyfatxFoizjPhzez9Io4=
+github.com/tc-hib/winres v0.3.1/go.mod h1:C/JaNhH3KBvhNKVbvdlDWkbMDO9H4fKKDaN7/07SSuk=
 github.com/xiaoqidun/setft v0.0.0-20220310121541-be86327699ad h1:QtuWk6dsrNXc/ugwCBEN0jG52q/4tXRzMvZm4fH6T9g=
 github.com/xiaoqidun/setft v0.0.0-20220310121541-be86327699ad/go.mod h1:Jj8p9bgKGTPQ+M8CdUMS9p7Mmdoxa3OAcAjJQBu0CcI=
 github.com/xyproto/randomstring v1.0.5 h1:YtlWPoRdgMu3NZtP45drfy1GKoojuR7hmRcnhZqKjWU=
