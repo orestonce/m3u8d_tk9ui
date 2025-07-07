@@ -1,8 +1,6 @@
 module m3u8d_tk9ui
 
-go 1.23.0
-
-toolchain go1.23.10
+go 1.24.4
 
 require (
 	github.com/ZenLiuCN/fn v0.1.34
@@ -28,7 +26,7 @@ require (
 	github.com/yapingcat/gomedia v0.0.0-20240823161909-e61bbaf17c9a // indirect
 	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0 // indirect
 	golang.org/x/image v0.26.0 // indirect
-	golang.org/x/net v0.39.0 // indirect
+	golang.org/x/net v0.40.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 	modernc.org/fileutil v1.3.6 // indirect
 	modernc.org/fsm v1.3.2 // indirect
